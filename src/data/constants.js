@@ -1,22 +1,20 @@
-import RocketResumeImg from "../images/RocketResume.png";
 import BoardImg from "../images/jkboselogo.png";
-import holteImg from "../images/holtec-asia.png";
-import bluestockImg from "../images/bluestock.jpeg";
+import ecellImage from '../images/ecell.png';
+import port from '../images/port.jpg';
+
+
 export const Bio = {
   name: "Reshav Sharma ",
   roles: ["Software Engineer", "Researcher", "MERN Stack Developer"],
   description:
     "A passionate full-stack developer and machine learning enthusiast with a knack for solving real-world problems through technology. Driven by curiosity, committed to continuous learning, and inspired to create solutions that make a lasting impact.",
   github: "https://github.com/reshavshrma/",
-  //leetcode: "https://leetcode.com/u/shahare_pnkj/",
-  //gfg: "https://www.geeksforgeeks.org/user/pankajsa6tmk/",
   resume:
     "https://drive.google.com/file/d/1LaoG1ZGuorsXOtHuqZ0qr61DMV7tA4Jy/view?usp=sharing",
 
   linkedin: "https://www.linkedin.com/in/reshavsharma/",
   twitter: "https://x.com/reshav_shrma",
   insta: "https://www.instagram.com/reshav_shxrmaa/",
-  github: "https://github.com/reshavshrma/",
 };
 
 export const skills = [
@@ -229,87 +227,53 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "LiveCodeHub-Collaborative Code Editor",
-
+    title: "Jammu Tourism",
+    date: "Jun 2021",
     description:
-      "LiveCodeHub is a real-time collaborative code editor featuring unique room generation, dynamic syntax highlighting, and intelligent auto-suggestions. It empowers users to seamlessly edit, save, and download files while enhancing teamwork through an integrated group chat for instant collaboration.",
+      "Jammu Tourism is a web application designed to promote tourism in the Jammu region. It features a user-friendly interface, detailed information about tourist attractions, and a booking system for hotels and tours.",
     image:
-      "https://assets.wpdeveloper.com/2022/03/Best-Online-Code-Editor-To-Use-In-2022.png",
-    tags: ["React", "Node", "Express", "Socket io"],
+      "https://cdn.jktdc.co.in/PageImages/636441750191590111warwan.jpg",
+    tags: ["HTML", "CSS","React", "Node"],
     category: "web app",
-    github: "https://github.com/pnkjshahare/LiveCodeHub",
-    webapp: "https://live-code-hub.vercel.app/",
+    github: "https://github.com/reshavshrma/jammu-tourism",
+    webapp: "https://reshavshrma.github.io/jammu-tourism/",
   },
 
   {
     id: 2,
-    title: "Concrete Strength Prediction",
-
+    title: "E-Cell Website",
+    date: "Jun 2021",
     description:
-      "Concrete Strength Prediction uses machine learning models to estimate the compressive strength of concrete based on input features like cement content, water-cement ratio, and curing time, aiding in efficient construction planning and quality control.",
-    image:
-      "https://media.gettyimages.com/id/941748918/photo/concrete-pouring-at-construction-site.jpg?s=612x612&w=0&k=20&c=gjrm52VyXqSLL8gBfzDN0RlMPV1foAzU2BLQcvEi8wc=",
-    tags: ["Python", "Keras", "TensorFlow", "Regression Algo"],
-    category: "machine learning",
+      "The E-Cell website serves as a platform to showcase the activities, events, and initiatives of the Entrepreneurship Cell at our college. It features information about upcoming events, workshops, and resources for aspiring entrepreneurs.",
+    image: ecellImage,
+    tags: ["HTML", "CSS", "React JS", "Node JS"],
+    category: "web app",
     github:
-      "https://github.com/pnkjshahare/ConcreateStrength-Prediction/tree/main",
+      "https://github.com/reshavshrma/ecell_website",
     webapp:
-      "https://github.com/pnkjshahare/ConcreateStrength-Prediction/tree/main",
+      "https://ecell-website-delta.vercel.app/",
     member: [
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github:
-          "https://github.com/pnkjshahare/ConcreateStrength-Prediction/tree/main",
-      },
+      // {
+      //   name: "",
+      //   img: "",
+      //   linkedin: "",
+      //   github:
+      //     "https://github.com/pnkjshahare/ConcreateStrength-Prediction/tree/main",
+      // },
     ],
   },
 
   {
     id: 5,
-    title: "Todo Web App",
+    title: "Portfolio Website",
     date: "Jun 2021",
+    image: port,
     description:
-      " A Todo Web App made with React JS, Vite, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2024/09/a-phone-with-a-to-do-list-next-to-a-notebook-with-a-handwritten-to-do-list-a-pen-and-some-sticky-notes-around.jpg",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+      "A Portfolio Website made with React JS, Vite, and Material UI. Designed and developed a fully functional personal portfolio website to showcase projects, skills, and achievements in an engaging and professional manner. The site features a responsive, mobile-friendly layout that ensures seamless viewing and interaction across devices of all screen sizes. Smooth animations, interactive elements, and a well-organized project showcase section were incorporated to enhance user experience and effectively highlight technical expertise.",
+    tags: ["React JS", "Vite", "Material UI", "Responsive Design"],
     category: "web app",
     github: "https://github.com/pnkjshahare/ToDo-List",
     webapp: "https://to-do-list-4eq38a8pp-pankaj-shahares-projects.vercel.app/",
   },
 
-  {
-    id: 8,
-    title: "Apple Quality Classification",
-    date: "June 2023",
-    description:
-      "Apple Quality Classification uses machine learning to evaluate the quality of apples based on features like color, texture, size, and defects, leveraging image processing and classification algorithms to ensure accurate grading for agricultural or retail purposes.",
-    image:
-      "https://cdn.pixabay.com/photo/2020/10/01/20/02/apples-5619618_1280.jpg",
-    tags: [
-      "Python",
-      "Keras",
-      "TensorFlow",
-      "OpenCV",
-      "PyTorch",
-      "Classification Algo",
-    ],
-    category: "machine learning",
-    github: "https://github.com/pnkjshahare/Apple-Quality-Classification",
-    webapp: "https://github.com/pnkjshahare/Apple-Quality-Classification",
-  },
-  {
-    id: 11,
-    title: "ResumeRocket-Automated Bulk Email Sender ",
-
-    description:
-      "ResumeRocket is a Python tool that automates bulk email sending with personalized messages and resume attachments via Gmail SMTP—perfect for job seekers and recruiters to apply efficiently and professionally.",
-    image: RocketResumeImg,
-    tags: ["Python", "smtplib", "pandas", "openpyxl", "python-dotenv"],
-    category: "web app",
-    github: "https://github.com/pnkjshahare/ResumeRocket",
-    webapp: "",
-  },
 ];
