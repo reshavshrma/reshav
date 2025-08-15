@@ -11,7 +11,7 @@ export const Bio = {
   //leetcode: "https://leetcode.com/u/shahare_pnkj/",
   //gfg: "https://www.geeksforgeeks.org/user/pankajsa6tmk/",
   resume:
-    "https://drive.google.com/file/d/1PJYPkcXZ9qOZFaQzoRQ3dpD8rZHB7ufv/view?usp=sharing",
+    "https://drive.google.com/file/d/1LaoG1ZGuorsXOtHuqZ0qr61DMV7tA4Jy/view?usp=sharing",
 
   linkedin: "https://www.linkedin.com/in/reshavsharma/",
   twitter: "https://x.com/reshav_shrma",
@@ -218,7 +218,7 @@ export const education = [
   {
     id: 2,
     img: BoardImg,
-    school: "Sulochana Devi Paradhi Vidyalay Mohadi Bhandara, Mahrastra",
+    school: "J&K Board of School Education, Jammu and Kashmir",
     date: "May 2019 - June 2020",
     grade: "97.60%",
     desc: "I completed my class 10 education at J&K Board of School Education, Jammu and Kashmir, where I studied all general subjects.",
